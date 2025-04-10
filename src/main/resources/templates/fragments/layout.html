@@ -51,6 +51,7 @@
           </li>
 
           <li th:replace="~{::menuItem ('/owners/find','owners','find owners','search','Find owners')}">
+            //
             <span class="fa fa-search" aria-hidden="true"></span>
             <span>Find owners</span>
           </li>
@@ -59,6 +60,13 @@
             <span class="fa fa-th-list" aria-hidden="true"></span>
             <span>Veterinarians</span>
           </li>
+
+          <li th:replace="~{::menuItem ('/incidents/find','incidents','find owners','search','View Incidents')}">
+            //
+            <span class="fa fa-search" aria-hidden="true"></span>
+            <span>Report Incident</span>
+          </li>
+
 
           <li
             th:replace="~{::menuItem ('/oups','error','trigger a RuntimeException to see how it is handled','exclamation-triangle','Error')}">
