@@ -51,3 +51,10 @@ INSERT INTO visits VALUES (default, 7, '2013-01-01', 'rabies shot');
 INSERT INTO visits VALUES (default, 8, '2013-01-02', 'rabies shot');
 INSERT INTO visits VALUES (default, 8, '2013-01-03', 'neutered');
 INSERT INTO visits VALUES (default, 7, '2013-01-04', 'spayed');
+
+INSERT INTO incident_type VALUES (default, 'Property Maintenance');
+INSERT INTO incident_type VALUES (default, 'Pet Medical Condition');
+INSERT INTO incident_type VALUES (default, 'Lost Pet');
+INSERT INTO incident_type VALUES (default, 'Animal Abuse');
+INSERT INTO incident_type VALUES (default, 'Faulty Equipment');
+INSERT INTO incident_type VALUES (default, 'Anesthetic Complications');
